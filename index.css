@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    padding: 15px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(175, 209, 248, 0.623), white, rgb(172, 164, 245));
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+.main_top{
+    width: 70%;
+}
+
+.main_top input{
+    margin: 2px;
+    padding: 12px;
+    width: 300px;
+    border-radius: 20px;
+    border: solid 1px white;
+}
+.main_top input::placeholder{
+    padding: 10px;
+    border: solid 1px white;
+}
+.main_top .btn_Add{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgba(43, 43, 248, 0.26);
+    color: white;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 3rem;
+    padding: 5px;
+}
+.todo_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo_list input{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    border-radius: 20px;
+    border: solid 1px white;
+}
+.delete{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 3rem;
+    padding: 5px;
+}
